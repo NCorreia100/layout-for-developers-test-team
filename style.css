@@ -1,0 +1,41 @@
+body{
+    font: Serif, "Times New Roman" 14px;
+}
+
+nav{
+    border: solid 5px black;
+    padding: 0px 0px 50px 0px;
+}
+
+.Content{
+    display: flex;
+    flex-direction: row;
+   
+    border: solid 5px red;
+}
+
+div{
+    padding: 2px;
+    
+}
+
+.Left{
+    border: solid 3px rgb(140, 244, 37);
+    order: 1;
+    /* flex-grow: 1; */
+    margin: auto;
+}
+
+.Right{
+ border: solid 3px rgb(247, 247, 110);
+ order: 3;
+ /* flex-grow: 1; */
+ margin: auto;
+}
+
+.Center{
+   border: solid 3px rgb(61, 61, 245);
+   order: 2;
+   /* flex-grow: 1; */
+   margin: auto;
+}
