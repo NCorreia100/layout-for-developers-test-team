@@ -17,7 +17,7 @@ nav{
 
 div{
     padding: 2px;
-    
+    min-width: 300px;
 }
 
 .Left{
@@ -42,4 +42,24 @@ div{
    flex-grow: 2;
    margin-bottom: 0;
    padding-bottom: 900px;
+   
+}
+
+.imgBlock{
+    float: left;
+}
+.smallPic{
+    width: 50px;
+    height: auto;
+    float:left;
+}
+.bigPic{
+    width: 500px;
+    height: auto;
+    float:left;
+}
+
+#flask{
+    width: 200px;
+    height: auto;
 }
