@@ -1,5 +1,6 @@
 body{
     font: Serif, "Times New Roman" 14px;
+    /* height: 500pt; */
 }
 
 nav{
@@ -10,8 +11,8 @@ nav{
 .Content{
     display: flex;
     flex-direction: row;
-   
     border: solid 5px red;
+   
 }
 
 div{
@@ -22,20 +23,23 @@ div{
 .Left{
     border: solid 3px rgb(140, 244, 37);
     order: 1;
-    /* flex-grow: 1; */
-    margin: auto;
+    flex-grow: 1;
+    margin-bottom: 0;
+    padding-bottom: 900px;
 }
 
 .Right{
  border: solid 3px rgb(247, 247, 110);
  order: 3;
- /* flex-grow: 1; */
- margin: auto;
+ flex-grow: 1;
+ margin-bottom: 0;
+ padding-bottom: 900px;
 }
 
 .Center{
    border: solid 3px rgb(61, 61, 245);
    order: 2;
-   /* flex-grow: 1; */
-   margin: auto;
+   flex-grow: 2;
+   margin-bottom: 0;
+   padding-bottom: 900px;
 }
